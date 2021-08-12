@@ -26,7 +26,7 @@ namespace Yuan.APi.Demo
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
               .AddIdentityServerAuthentication(JwtBearerDefaults.AuthenticationScheme, options =>
                {
-                   options.Authority = "http://localhost:5001";
+                   options.Authority = "https://citrixsummer2021idserver.azurewebsites.net/";
                    options.RequireHttpsMetadata = false;
                    options.ApiName = "api1";
                    options.ApiSecret = "apipwd"; //对应ApiResources中的密钥

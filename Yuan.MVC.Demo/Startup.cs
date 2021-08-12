@@ -55,7 +55,7 @@ namespace Yuan.MVC.Demo
 
               .AddOpenIdConnect("oidc", options =>
               {
-                  options.Authority = "http://localhost:5001";
+                  options.Authority = "https://citrixsummer2021idserver.azurewebsites.net/";
                   options.RequireHttpsMetadata = false;
                   options.ClientId = "code_client";
                   options.ClientSecret = "511536EF-F270-4058-80CA-1C89C192F69A";

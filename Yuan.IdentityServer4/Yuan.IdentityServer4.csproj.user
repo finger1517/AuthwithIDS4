@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <NameOfLastUsedPublishProfile>C:\Users\ayuan0105\Desktop\quickstart\Yuan.IdentityServer4.Demo\DiffAuthMode\yuan-demo-remix\Yuan.IdentityServer4\Properties\PublishProfiles\citrixsummer2021IdServer - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+  </PropertyGroup>
+</Project>

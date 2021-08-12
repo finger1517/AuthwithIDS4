@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="YuanAPiDemo" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ayuan0105\\Desktop\\quickstart\\Yuan\.IdentityServer4\.Demo\\DiffAuthMode\\yuan-demo-remix\\Yuan\.APi\.Demo\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
