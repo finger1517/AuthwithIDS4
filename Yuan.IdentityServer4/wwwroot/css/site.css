@@ -1,5 +1,11 @@
-﻿.body-container {
+﻿.page{
+  background-image: url(./login.jpg);
+  background-size: cover;
+}
+
+.body-container {
   margin-top: 60px;
+  text-align: center;
   padding-bottom: 40px; }
 
 .welcome-page li {
