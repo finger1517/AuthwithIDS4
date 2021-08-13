@@ -99,7 +99,7 @@ namespace Yuan.MVC.Demo.Controllers
 
             // client.SetBearerToken(accesstoken);
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
-            //var httpResponse = await client.GetAsync("https://yuanapidemo.azurewebsites.net/api/identity/GetUserClaims");
+            //var httpResponse = await client.GetAsync("http://localhost:5003/api/identity/GetUserClaims");
             //var result = await httpResponse.Content.ReadAsStringAsync();
             //if (!httpResponse.IsSuccessStatusCode)
             //{
@@ -110,7 +110,7 @@ namespace Yuan.MVC.Demo.Controllers
             //    msg = "成功",
             //    data = JsonConvert.DeserializeObject(result)
             //});
-            var content = await client.GetStringAsync("https://yuanapidemo.azurewebsites.net/api/identity/GetUserClaims");
+            var content = await client.GetStringAsync("http://localhost:5003/api/identity/GetUserClaims");
 
             ViewBag.Json = JArray.Parse(content).ToString();
             return View("json");
